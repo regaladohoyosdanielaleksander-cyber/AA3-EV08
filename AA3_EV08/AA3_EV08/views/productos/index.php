@@ -49,8 +49,14 @@ $productos = listarProductos($conexion);
     <p>Daniel Aleksander Regalado — Ficha 3230905</p>
 </header>
 
+<nav class="menu">
+    <a href="../inicio/index.html">Inicio</a>
+    <a href="#registro">Registrar producto</a>
+    <a href="#productos">Listado de productos</a>
+</nav>
+
 <main class="contenido">
-    <section class="caja">
+    <section id="registro" class="caja">
         <h2 id="tituloFormulario">Registrar producto</h2>
         <?php if ($mensaje != "") { echo "<p>" . htmlspecialchars($mensaje) . "</p>"; } ?>
         <form method="POST" id="formProducto">
