@@ -1,0 +1,24 @@
+ENTREGA AA3-EV08 - INVENTARIO DE PRODUCTOS
+
+CONTENIDO
+- Proyecto_AA3_EV08/: proyecto PHP, CSS, JavaScript y SQL.
+- Informe_AA3_EV08.docx: informe editable.
+
+INSTALACION
+1. Instale/abra XAMPP e inicie Apache y MySQL.
+2. Copie la carpeta Proyecto_AA3_EV08 a C:\xampp\htdocs\
+3. Abra http://localhost/phpmyadmin/
+4. Entre en Importar y seleccione Proyecto_AA3_EV08/database/sistema_inventario.sql
+   El script crea la base sistema_inventario y no elimina tablas existentes.
+5. Abra http://localhost/Proyecto_AA3_EV08/
+
+SI LA CARPETA SE LLAMA DIFERENTE
+Use en la URL el nombre exacto de la carpeta dentro de htdocs.
+
+IMPORTANTE SOBRE LA ENTREGA
+Las funciones implementadas son listado, registro, edición, búsqueda y filtro por estado.
+El código fue preparado, pero debe probarse en el XAMPP del aprendiz. No se incluyen capturas falsas ni se afirma que las pruebas locales o el repositorio remoto ya estén realizados.
+
+GITHUB indicado en la guía:
+https://github.com/juniorCelis96/AA3-EV08-Proyecto_reto_adso_09102026.git
+Este es el enlace proporcionado por la guía; no significa que los cambios ya estén publicados allí.
